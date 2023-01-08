@@ -24,7 +24,5 @@ class MainActivity : AppCompatActivity() {
             secondIntent.putExtra("TOTAL_COUNT", Integer.parseInt(count.text as String))
             startActivity(secondIntent)
         }
-
     }
-
 }
